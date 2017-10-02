@@ -18,8 +18,10 @@ public class ObjectHeight {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);  
         System.out.println("Enter time less than 4.5 seconds: ");
-        float n = reader.nextFloat(); 
-        System.out.println("The height of the object is " + n );
+        double t = reader.nextFloat();
+        double h = 100-4.9*t*2;
+        
+        System.out.println("The height of the object is " + h + " meters." );
     }
     
 }
